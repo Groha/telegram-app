@@ -1,9 +1,8 @@
-import './App.css';
-import Card from './components/card';
+import Card from '../components/card';
 
-function App() {
+export default function Root() {
   return (
-    <div className="App">
+    <>
       <div className='p-5 mx-auto'>
         <div>
           <Card/>
@@ -16,8 +15,6 @@ function App() {
           <Card/>
         </div>
       </div>
-    </div>
+    </>
   );
 }
-
-export default App;
